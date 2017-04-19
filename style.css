@@ -1,0 +1,102 @@
+
+.navigation {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
+	padding: 5px;
+	margin-top: -10px;
+}
+ul {
+	list-style-type: none
+}
+
+li {
+	
+	margin: 10px;
+	line-height: 5px
+
+}
+
+.icon {
+	height: 22px; width: 22px;
+}
+
+a {
+	text-decoration: none;
+	font-family: Arial;
+	color: #615d5d;
+	font-size: 13px;
+}
+
+#avatar {
+	border-radius: 50%;
+	height: 32px; width: 32px;
+}
+
+div {
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 75px;
+	
+}
+
+
+.logo {
+	width: 300px;
+	height: 100px;
+	padding-bottom: 30px;
+}
+
+input[type="search"] {
+	width: 600px;
+	-webkit-appearance: none;
+	padding: 0px 8px;
+	border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    height: 44px;
+    vertical-align: top;
+    border-radius: 2px;
+    background-image: url("http://i.imgur.com/l5S4LZ2.png");
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+    background-size: 26px 26px;
+}
+
+:focus {
+	outline: none;
+}
+
+.buttons {
+	display: flex;
+	display: -webkit-flex;
+	/*align-items: center;*/
+	flex-direction: row;
+	justify-content: center;
+	padding: 20px;
+	;
+}
+
+input[type="button"] {
+	height: 36px;
+	
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+input[type="button"]:hover {
+	border: 1px solid #c6c6c6;
+	color: black;
