@@ -1,4 +1,8 @@
 
+html {
+	height: 100%;
+}
+
 .navigation {
 	display: -webkit-flex;
 	display: flex;
@@ -64,6 +68,7 @@ input[type="search"] {
     background-repeat: no-repeat;
     background-position: 97% 50%;
     background-size: 26px 26px;
+    font: 16px arial, sans-serif;
 }
 
 :focus {
@@ -100,3 +105,50 @@ input[type="button"] {
 input[type="button"]:hover {
 	border: 1px solid #c6c6c6;
 	color: black;
+}
+
+body {
+	display: flex;
+	min-height: 100%;
+	flex-direction: column;
+
+}
+
+.content {
+	flex: 1;
+	padding: 20px;
+}
+
+footer {
+	
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: arial, sans-serif;
+	margin: -10px;
+	margin-bottom: -10px;
+}
+
+.left {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	-webkit-padding-start: 20px;
+}
+footer ul li {
+	padding: 7px;
+}
+
+
+.right {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	padding-right: 20px;
+	
+}
+
+a:hover {
+	text-decoration: underline;
+}
